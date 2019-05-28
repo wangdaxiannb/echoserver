@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ceef08b-7ba7-445a-8275-0f88ff595bd3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdclass/echo/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangp/echo/EchoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdclass/echo/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangp/echo/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,14 +42,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerCounthandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServerCounthandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wangp/millon/ServerCounthandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MillonClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangp/millon/MillonClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -79,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xdclass/test/MyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xdclass/echo/ChannelDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xdclass/chapter7/EchoClient.java" />
@@ -96,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xdclass/millon/ServerCounthandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xdclass/millon/MillonServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangp/millon/ServerCounthandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wangp/millon/MillonClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -257,6 +275,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangp.millon" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -398,12 +421,12 @@
       <workItem from="1556524840440" duration="834000" />
       <workItem from="1557103333058" duration="32024000" />
       <workItem from="1557967285736" duration="33793000" />
-      <workItem from="1558923460438" duration="5196000" />
+      <workItem from="1558923460438" duration="5623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80524000" />
+    <option name="totallyTimeSpent" value="80951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,6 +439,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297491" />
@@ -503,13 +527,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="124" column="38" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -909,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wangp/chapter7/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -931,10 +941,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wangp/millon/ServerCounthandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangp/millon/MillonClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
         </state>
       </provider>
     </entry>
